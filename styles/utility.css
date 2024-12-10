@@ -5,6 +5,7 @@
     margin-inline: auto;
 }
 
+/*Aplicando responsividade*/
 @media (width >= 80em){
     .container{
         --max-width: 80rem;

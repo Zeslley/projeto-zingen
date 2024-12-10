@@ -35,7 +35,7 @@
     --fs-xl: 1.5rem;
     --fs-2xl: 2.25rem;
 
-
+    /*Variáveis para responsividade*/
     --px-lg: 1.5rem;
 
 }
@@ -81,7 +81,7 @@ ul[role="list"]{
 }
 
 
-
+/*Aplicando responsividade*/
 @media (width >= 80em){
     :root{
         --fs-lg: 2rem;
