@@ -16,6 +16,16 @@
   color: var(--bg-color)
 }
 
+.btn:hover{
+  --btn-bg-color: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+    );
+
+    --btn-color: var(--surface-color);
+}
+
 .btn-sm {
   padding: 0.5rem 1rem;
   font-size: var(--fs-sm);
@@ -30,3 +40,5 @@
   padding: 1rem 2rem;  
   font-size: 1.125rem;
 }
+
+
