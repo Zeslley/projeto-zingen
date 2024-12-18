@@ -26,6 +26,31 @@
     --btn-color: var(--surface-color);
 }
 
+.btn[aria-label]{
+  position: relative;
+
+  &::before{
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    border-radius: inherit;
+    inset: 1.5px;
+    
+  }
+
+
+  &::after{
+  content: attr(aria-label);
+  background: var(--btn-bg-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+}
+
 .btn-sm {
   padding: 0.5rem 1rem;
   font-size: var(--fs-sm);
