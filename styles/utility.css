@@ -1,7 +1,6 @@
 .container{
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2 );
-    border: 1px solid red;
     margin-inline: auto;
 }
 
@@ -25,6 +24,13 @@
     padding-inline: var(--px-lg);
 }
 
+.itens-center{
+    align-items: center;
+}
+
+.gap-1\.5{
+    gap: 1.5rem;
+}
 .even-columns{
     display: grid;
     gap: 1rem;
